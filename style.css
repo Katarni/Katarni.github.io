@@ -2,6 +2,10 @@ body {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: white;
+
+    background: url(img/back.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 main {
@@ -11,12 +15,16 @@ main {
     justify-content: center;
 }
 
+.text-holder {
+    height: fit-content;
+}
+
 #title-text, #visit-pages-text {
     text-align: center;
 }
 
 .link-text {
     text-decoration: none;
-    color: black;
     text-align: center;
+    color: white;
 }
