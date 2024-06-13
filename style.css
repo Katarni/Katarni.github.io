@@ -1,25 +1,22 @@
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#title-text {
-    text-align: center;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
-.link-li {
-    list-style: none;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-text, #visit-pages-text {
     text-align: center;
 }
 
 .link-text {
     text-decoration: none;
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
     color: black;
+    text-align: center;
 }
