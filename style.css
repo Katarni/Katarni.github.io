@@ -19,12 +19,18 @@ main {
     height: fit-content;
 }
 
-#title-text, #visit-pages-text {
+#title-text {
     text-align: center;
+}
+
+#visit-pages-text {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .link-text {
     text-decoration: none;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
 }
