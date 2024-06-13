@@ -71,12 +71,12 @@ main {
 @media screen and (max-width: 600px) {
     .link-holder {
         display: flex;
-        width: 80%;
+        width: 85%;
         justify-content: space-between;
     }
 
     .link-icon {
-        width: 50px;
+        width: 60px;
         height: auto;
     }
 }
