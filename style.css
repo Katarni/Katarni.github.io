@@ -1,7 +1,7 @@
 html {
     height: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -112,12 +112,12 @@ footer {
     align-items: flex-end;
 
     height: 7vh;
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 
 .table {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 
     height: 7vh;
 }
@@ -126,6 +126,6 @@ footer {
     margin-left: 2vh;
 }
 
-#teble-right {
+#table-right {
     margin-right: 2vh;
 }
