@@ -52,12 +52,6 @@ body {
     text-align: center;
 }
 
-@media screen and (min-width: 1350px) {
-    #table-center {
-        width: 120vh;
-    }
-}
-
 @media screen and (min-width: 1200px) {
     .link-holder {
         display: flex;
@@ -68,10 +62,6 @@ body {
     .link-icon {
         width: 82px;
         height: auto;
-    }
-
-    #table-center {
-        width: 100vh;
     }
 }
 
@@ -85,10 +75,6 @@ body {
     .link-icon {
         width: 72px;
         height: auto;
-    }
-
-    #table-center {
-        width: 80vh;
     }
 }
 
@@ -105,38 +91,3 @@ body {
     }
 }
 
-@media screen and (max-width: 550px) {
-    #table-center {
-        width: 30vh;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #table-center {
-        width: 24vh;
-    }
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-    height: 7vh;
-    margin-top: 2vh;
-}
-
-.table {
-    padding: 0;
-    margin: 0;
-
-    height: 7vh;
-}
-
-#table-left {
-    margin-left: 2vh;
-}
-
-#table-right {
-    margin-right: 2vh;
-}
