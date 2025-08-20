@@ -1,1 +1,1 @@
-# It's a page about me
+# This is a page about me
