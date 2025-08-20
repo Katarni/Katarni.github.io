@@ -13,14 +13,6 @@ body {
     color: white;
 }
 
-.main-content-wrapper {
-    min-height: 100%;
-    min-width: 100%;
-
-    background: url(img/back.gif) no-repeat center center fixed;
-    background-size: cover;
-}
-
 #header {
     display: flex;
     justify-content: start;
@@ -53,6 +45,11 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
+    .main-content-wrapper {
+        background: url(img/back.gif) no-repeat center center fixed;
+        background-size: cover;
+    }
+
     .link-holder {
         display: flex;
         width: 45%;
@@ -66,6 +63,11 @@ body {
 }
 
 @media screen and (max-width: 1200px) and (min-width: 600px) {
+    .main-content-wrapper {
+        background: url(img/back.gif) no-repeat center right fixed;
+        background-size: cover;
+    }
+
     .link-holder {
         display: flex;
         width: 60%;
@@ -79,6 +81,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .main-content-wrapper {
+        background: url(img/back.gif) no-repeat center right fixed;
+        background-size: cover;
+    }
+
     .link-holder {
         display: flex;
         width: 85%;
